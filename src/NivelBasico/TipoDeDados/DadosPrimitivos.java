@@ -1,4 +1,4 @@
-package TipoDeDados;
+package NivelBasico.TipoDeDados;
 
 public class DadosPrimitivos {
 

@@ -1,0 +1,29 @@
+package NivelBasico.Condicoes;
+
+public class IfEElse {
+
+    /*
+    * IF e ELSE
+    * ELSE IF
+    * Objetivo: Passar o ninka de nível de acordo com o número de missões.
+    * */
+
+    public static void main(String[] args) {
+        String nome = "Naruto Uzumaki";
+        String rank;
+
+        int idade = 10;
+        boolean hokage = false;
+        short numeroDeMissoes = 20;
+
+
+        if(numeroDeMissoes == 10 && idade > 15){
+            System.out.println("Rank: Chunnin");
+        } else if (numeroDeMissoes >= 20) {
+            System.out.println("Rank: Jounin");
+        } else {
+            System.out.println("Rank: Gennim");
+        }
+
+    }
+}
