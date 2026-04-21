@@ -5,4 +5,17 @@ public class Ninja {
     String aldeia;
     int idade;
 
+
+    //Criar um métedo público personalizado
+
+    //Método String vai ter que retornar uma String
+    public String euSouUmNinja(){
+        return "Oi, eu sou um ninja!";
+    }
+
+    //Método Int vai ter que retornar um int
+    public int anosParaSeTornarHokage(int idadeMininaParaSerhokage){
+        return idadeMininaParaSerhokage - idade;
+    }
+
 }
