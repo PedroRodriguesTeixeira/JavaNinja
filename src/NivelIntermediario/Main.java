@@ -31,11 +31,21 @@ public class Main {
         Hinata.aldeia = "Aldeia da folha";
         Hinata.AtivarByakugan();
 
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+
         //Aplicando métodos aos meus objetos
         System.out.println();
         String chamandoMetodo = Sasuke.euSouUmNinja();
         System.out.println(chamandoMetodo);
         int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
         System.out.println("Você tem " + Sasuke.idade + ", entao falta no mínimo: " + quantoTempoFalta + " anos para se tornar hokage.");
+
+        //Interface
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
     }
 }
