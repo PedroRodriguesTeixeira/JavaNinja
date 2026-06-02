@@ -1,4 +1,4 @@
-package InterfaceXClassesAbstratas;
+package NivelIntermediario.InterfaceXClassesAbstratas;
 
 public interface NinjaInterface {
 
