@@ -1,5 +1,6 @@
 package NivelIntermediario.List;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListxArrays {
@@ -17,7 +18,29 @@ public class ListxArrays {
 
         //Listas
         //Listas não são estáticas, elas podem aumentar ou diminuir
+        List<String> ninjasList = new ArrayList<>();
+        //Adicionar na lista
+        ninjasList.add("Naruto Uzumaki"); //Index 0
+        ninjasList.add("Sasuke Uchiha"); //Index 1
+        ninjasList.add("Sakura Haruno"); //Index 2
+        ninjasList.add("Tobirama Senju"); //Index 3
+        ninjasList.add("Migth Guy"); //Index 4
 
+        //soutv
+        System.out.println("ninjasList = " + ninjasList);
+
+
+        //Remover da lista
+        ninjasList.remove("Migth Guy");
+        System.out.println("ninjasList = " + ninjasList);
+
+
+        //Trocar elementos
+        ninjasList.set(3, "Kakashi Hatake");
+        System.out.println("ninjasList troca de elementos = " + ninjasList);
+
+        //Ver o tamanho da lista
+        System.out.println("Tamanho lista =" + ninjasList.size() + " Elemento");
     }
 
 }
